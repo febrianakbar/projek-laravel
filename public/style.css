@@ -1,0 +1,226 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans' ,sans-serif;
+}
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+    border: 2px solid purple;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    padding-left: 70px;
+}
+.menu {
+    float: right;
+    padding-right: 70px;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    line-height: 80px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    position: relative;
+}
+li a {
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    transition: color 5s;
+}
+li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 0;
+    height: 5px;
+    transition: width .5s;
+}
+li:hover::after {
+    width: 100%;
+    background-color: purple;
+}
+img {
+    float: right;
+    margin-right: 150px;
+    margin-top: -200px;
+    width: 400px;
+    margin-bottom: 0px;
+}
+.image h1 {
+    padding-left: 200px;
+    padding-top: 300px;
+    font-size: 50px;
+}
+.image h1 span {
+    background: linear-gradient(270deg, #ff00dd, purple, #ff00dd, purple);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.clear {
+    clear: both;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.logo a {
+    background: linear-gradient(270deg, #ff00dd, purple, #ff00dd, purple);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: arial;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.image a {
+    background-color: purple;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.image2 img {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin:-220px 625px;
+    margin-top: 90px;
+}
+.image2 {
+    margin-top: 10%;
+}
+.image2 h2 {
+    padding-top: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+.image2 p {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: calibri;
+    padding-top: 10px;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.image2box {
+    background-color: purple;
+    width: 1000px;
+    margin-left: 250px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 150px;
+}
+.image4 img {
+    width: 250px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 370px;
+}
+.image4 a {
+    background-color: purple;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 270px;
+    margin-left: 438px;
+}
+.image5 img {
+    width: 380px;
+    margin-right: 350px;
+    margin-top: -290px;
+}
+.image5 a {
+    background-color: purple;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-top: -42px;
+    margin-right: 480px;
+    margin-bottom: 20%;
+}
+.p {
+    margin-top: 20%;
+}
+.image4 h2 {
+    padding-left: 680px;
+}    
